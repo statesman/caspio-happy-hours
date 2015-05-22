@@ -33,7 +33,7 @@
   <meta name="twitter:url" content="<?php print $meta['url']; ?>" />
 
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="SXSW Side Parties">
+  <meta name="apple-mobile-web-app-title" content="Austin360 Happy Hours">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="apple-touch-icon" href="assets/appicon.png">
 
