@@ -99,7 +99,7 @@ module.exports = function(grunt) {
         },
         src: 'public',
         dest: '/stage_aas/projects/happy-hours/',
-        exclusions: ['dist/tmp','Thumbs.db'],
+        exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
       },
@@ -112,7 +112,7 @@ module.exports = function(grunt) {
         },
         src: 'public',
         dest: '/prod_aas/projects/happy-hours/', // prod path will need to change
-        exclusions: ['dist/tmp','Thumbs.db'],
+        exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
       }
@@ -149,5 +149,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['copy', 'less', 'jshint','bootlint','uglify']);
   grunt.registerTask('stage', ['default','ftpush:stage','slack:stage']);
-//  grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
+  grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
 };
