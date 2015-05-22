@@ -35,7 +35,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Austin360 Happy Hours">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="apple-touch-icon" href="assets/appicon.png">
+  <link rel="apple-touch-icon" href="assets/happy-hours-logo.jpg">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="dist/style.css">
