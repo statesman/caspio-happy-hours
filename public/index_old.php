@@ -67,6 +67,16 @@
         </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Search <span class="sr-only">(current)</span></a></li>
+        <li><a href="submit.php">Submit</a></li>
+        <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+       <ul class="nav navbar-nav navbar-right social hidden-xs">
+          <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
     </div>
   </div>
 </nav>
@@ -80,12 +90,25 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
-        <hr>
-        <h2>This database has been mothballed. Please see <a href="http://www.austin360.com>"Austin360.com</a> for the latest events and other entertainment news.</h2>
-        <hr>
-
+      <div class="col-xs-12 col-sm-6" id="venue-search">
+        <div class="visible-xs">
+          <!-- <h3>xs</h3> -->
+          <div id="cbe76c00006d2d740819d64d0ea6cc"></div>
+          <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+          <script type="text/javascript">try{f_cbload("e76c00006d2d740819d64d0ea6cc","http:");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c00006d2d740819d64d0ea6cc">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+        </div>
+        <div class="hidden-xs">
+          <!-- <h3>bigger than xs</h3> -->
+          <div id="cbe76c00002fc8e9f160cb454ea546"></div>
+          <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+          <script type="text/javascript" language="javascript">try{f_cbload("e76c00002fc8e9f160cb454ea546","http:");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c00002fc8e9f160cb454ea546">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+        </div>
      </div>
+      <div class="col-xs-12 col-sm-6">
+        <?php include "includes/about.inc"; ?>
+      </div>
     </div>
 
 
