@@ -82,7 +82,7 @@
     <div class="row">
       <div class="col-xs-12">
         <hr>
-        <h2>This database has been mothballed. Please see <a href="http://www.austin360.com>"Austin360.com</a> for the latest events and other entertainment news.</h2>
+        <h2>This database has been mothballed. Please see <a href="http://www.austin360.com>">Austin360.com</a> for the latest events and other entertainment news.</h2>
         <hr>
 
      </div>
